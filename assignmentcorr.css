@@ -1,0 +1,101 @@
+*{
+    padding: 0px;
+    box-sizing: border-box;
+    margin: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.circle{
+    display: grid;
+    margin: 50px;
+    /* padding: 5px; */
+    width: 100px;
+    border-radius: 100px;
+    overflow: hidden;
+    height: 100px;
+    /* background-color: red; */
+    border: 3px solid saddlebrown;
+    animation: spin 1ms  ease infinite;
+}
+@keyframes spin {
+
+    25%{
+        transform: rotate(90deg);
+    }
+    50%{
+        transform: rotate(180deg);
+    }
+    75%{
+        transform: rotate(270deg);
+
+    }
+    100%{
+        transform: rotate(360deg);
+
+    }
+   /* from{
+    transform: rotate(180deg);
+   }
+   to{
+    transform: rotate(360deg);
+   } */
+    
+}
+.first-sec{
+    display: flex;
+    width: 100px;
+    /* border: 2px solid black; */
+    /* gap: 20px; */
+    height: 50px;
+}
+.box1{
+    width: 50px;
+    padding: 9px;
+    /* border: 2px solid black; */
+    background-color: green;
+    font-size: 15px;
+    color: white;
+}
+.box2{
+    width: 50px;
+    padding: 7px;
+    /* border: 2px solid black; */
+    background-color: rgb(255, 217, 0);
+    font-size: 15px;
+    color: white;
+    animation: color1 3s ease infinite;
+}
+
+@keyframes color1 {
+    from{
+        background-color: aqua;
+    }
+    to{
+        background-color: blueviolet;
+    }
+}
+.second-sec{
+    display: flex;
+    width: 100px;
+    /* border: 2px solid black; */
+    /* gap: 20px; */
+    height: 50px;
+}
+
+.box3{
+    width: 50px;
+    padding: 7px;
+    /* border: 2px solid black;
+     */
+    background-color: rgb(4, 0, 255);
+    font-size: 15px;
+    color: white;
+}
+.box4{
+    width: 50px;
+    padding: 7px;
+    /* border: 2px solid black; */
+    background-color: rgb(255, 94, 0);
+    font-size: 15px;
+    color: white;
+}
+

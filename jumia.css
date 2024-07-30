@@ -3,7 +3,7 @@
 
 
 body{
-    background-color: pink;
+    background-color: rgb(239, 218, 221);
     font-family: "Poppins";
     padding: 0px;
 }
@@ -46,6 +46,7 @@ body{
     font-size: 13px;
     padding: 4px;
     color: white;
+    font-weight: bold;
 }
 
 /* Product Card */
